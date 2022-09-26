@@ -1,0 +1,37 @@
+* {background-color: black;
+    color: white;}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border: solid red;
+    gap: 360px;
+    margin: 20px;
+}
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    border: solid red;
+    align-items: right;
+    justify-content: right;
+    gap: 8px;
+}
+.header div {
+    border: solid red;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.header button {
+    border: solid red;
+    font-size: 18px;
+}
+button {
+    transition: transform .3s ease-in-out;
+}
+  
+button:hover {
+    transform: scale(1.1);
+}
+.title-scene {
+    opacity: 50%;
+}
