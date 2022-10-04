@@ -4,7 +4,6 @@
 .header {
     display: flex;
     flex-direction: row;
-    border: solid red;
     gap: 360px;
     margin: 20px;
 }
@@ -17,13 +16,14 @@
     gap: 8px;
 }
 .header div {
-    border: solid red;
+    border: solid grey;
     font-size: 28px;
     font-weight: bolder;
 }
 .header button {
-    border: solid red;
+    border: solid grey;
     font-size: 18px;
+    box-shadow: 2px;
 }
 button {
     transition: transform .3s ease-in-out;
@@ -77,4 +77,5 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     border: rad;
+    text-shadow: 2em white;
   }
